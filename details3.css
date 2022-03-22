@@ -1,0 +1,128 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration:none
+}
+/*footer CSS*/
+#header{
+    height:60px;
+    background-color:#e28b62
+}
+
+#icon{
+    float: left;
+    margin-left:1%;
+    margin-top:-1%
+}
+
+#social{
+    float: right; 
+}
+
+.slogo{
+    height:50px;
+    width:50px;
+}
+h1{
+    font-size: 35px;
+}
+    
+
+
+.contentDiv{
+    height:700px;
+    width:77%;
+    margin-left: 2%;
+    float: left;
+}
+
+.imgDiv{
+    height:450px;
+    width:45%;
+    float: left;
+    border:8px groove gray;
+    margin-top: 5%;
+}
+
+.imgDiv > img {
+    height:450px;
+    width:100%;
+}
+.imgDiv:hover{
+    transform: scale(1.1);
+}
+.content{
+    height:600px;
+    width:50%;
+    float: left;
+    margin-top: 3%;
+    margin-left:2%
+}
+
+.checked{
+    color:red;
+}
+
+.feature_container{
+    width:100%;
+    float:left;
+}
+.feature{
+    float: left;
+    margin-left:5%
+}
+.fetIcon{
+    height:100px;
+    width:100px;
+    margin-left:2%
+}
+.fetIcon:hover{
+    transform: scale(1.1);
+}
+h2{
+    color:green;
+    font-size:35px;
+}
+
+.btn{
+    height:50px;
+    width:200px;
+    font-size:20px;
+    background-color: red;
+    color:yellow;
+}
+
+.btn:hover{
+    background-color:yellow;
+    color:red;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+
+/*footer CSS*/
+#footer{
+    float:left;
+    height:140px;
+    width:100%;
+    margin-top: 5%;
+    background-color:#e28b62
+}
+
+#footText{
+    text-align: center;
+}
+
+.footDiv{
+    height:70px;
+    width:33%;
+    float: left;
+    border-right: 2px solid black;
+    text-align: center;
+}
+
+.noBorder{
+    border:none 
+}
